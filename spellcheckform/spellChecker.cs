@@ -20,7 +20,7 @@ namespace spellcheckform
             {
                 MessageBoxButtons buttons = MessageBoxButtons.OK;
                 MessageBox.Show("Input contains whitespace.", "Error", buttons);
-                //return;
+                return;
             } 
             
             listBox1.BeginUpdate();
